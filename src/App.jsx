@@ -1,13 +1,9 @@
-import Product from "./Product/Product";
-import Message from "./Message/Message";
-let App = () => {
+function App() {
   return (
     <div>
-      <h3>App Component</h3>
-      <hr />
-      <Product />
-      <Message />
+      <h2>App Component</h2>
     </div>
   );
-};
+}
+
 export default App;
